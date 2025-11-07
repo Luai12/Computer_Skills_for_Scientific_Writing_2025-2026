@@ -53,12 +53,41 @@
 \toprule
 A & B & C \\
 \midrule
-x & y &  \\ % пустая ячейка вместо недостающей
+x & y & {}  \\ % пустая ячейка вместо недостающей
 \bottomrule
 \end{tabular}
 \end{table}
 
+% Упражнение 4 — Избыток элементов
 
+\begin{table}[H]
+\centering
+\caption{Упражнение 4 — Избыток элементов в строке}
+\begin{tabular}{lcr}
+\toprule
+A & B & C \\
+\midrule
+x & y & z   \\ % исправленная версия (лишняя удалена)
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Упражнение 5 — Использование \multicolumn
+
+\begin{table}[H]
+\centering
+\caption{Упражнение 5 — Использование \texttt{\textbackslash multicolumn}}
+\begin{tabular}{lcc}
+\toprule
+\multicolumn{1}{c}{Группа} & \multicolumn{1}{c}{Метрика A} & \multicolumn{1}{c}{Метрика B} \\
+\midrule
+Модель X & 0.81 & 0.74 \\
+Модель Y & 0.85 & 0.77 \\
+\cmidrule(lr){2-3}
+Итого & \multicolumn{2}{c}{среднее = 0.79} \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 \end{document}
