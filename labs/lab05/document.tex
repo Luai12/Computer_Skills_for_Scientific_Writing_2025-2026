@@ -72,7 +72,22 @@ x & y & z   \\ % исправленная версия (лишняя удале�
 \end{tabular}
 \end{table}
 
+% Упражнение 5 — Использование \multicolumn
 
+\begin{table}[H]
+\centering
+\caption{Упражнение 5 — Использование \texttt{\textbackslash multicolumn}}
+\begin{tabular}{lcc}
+\toprule
+\multicolumn{1}{c}{Группа} & \multicolumn{1}{c}{Метрика A} & \multicolumn{1}{c}{Метрика B} \\
+\midrule
+Модель X & 0.81 & 0.74 \\
+Модель Y & 0.85 & 0.77 \\
+\cmidrule(lr){2-3}
+Итого & \multicolumn{2}{c}{среднее = 0.79} \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 \end{document}
