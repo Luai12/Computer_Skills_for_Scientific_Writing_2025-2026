@@ -1,0 +1,65 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}     
+\usepackage[russian]{babel}
+\usepackage{array,booktabs,float}
+\usepackage{geometry}
+\geometry{margin=2cm}
+\pagestyle{empty}
+
+\begin{document}
+
+
+% Упражнение 1 — Простая таблица
+
+\begin{table}[H]
+\centering
+\caption{Упражнение 1 — Простая таблица}
+\begin{tabular}{lcr}
+\toprule
+Левый & Центр & Правый \\
+\midrule
+кот  & мясо  & small \\
+пёс  & кости & medium \\
+конь & сено  & large \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Упражнение 2 — Разное выравнивание
+
+\begin{table}[H]
+\centering
+\caption{Упражнение 2 — Разные типы выравнивания}
+\begin{tabular}{l c r}
+\toprule
+\multicolumn{1}{c}{Left (l)} & Center (c) & Right (r) \\
+\midrule
+1.234     & 1.234     & 1.234     \\
+123.4     & 123.4     & 123.4     \\
+12345.678 & 12345.678 & 12345.678 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Упражнение 3 — Недостаток элементов
+
+\begin{table}[H]
+\centering
+\caption{Упражнение 3 — Недостаток элементов в строке}
+\begin{tabular}{lcr}
+\toprule
+A & B & C \\
+\midrule
+x & y &  \\ % пустая ячейка вместо недостающей
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
+\end{document}
+
