@@ -1,0 +1,28 @@
+\documentclass{article}
+
+
+\usepackage[utf8]{inputenc}    
+\usepackage[T2A]{fontenc}       
+\usepackage[russian,english]{babel}  
+
+
+\usepackage[style=numeric]{biblatex}
+\addbibresource{myrefs.bib}
+
+\begin{document}
+
+Здесь я использую \textcite{Graham1995} как текстовую ссылку.
+
+А здесь скобочная ссылка: \parencite{Thomas2008}.
+
+Можно добавить номер страницы: \autocite[56]{Thomas2008}.
+
+
+ См. также результаты в \parencite{Smith2020}.
+
+ См. неизвестный источник: \parencite{NotReal2024}.
+
+\printbibliography
+
+\end{document}
+
