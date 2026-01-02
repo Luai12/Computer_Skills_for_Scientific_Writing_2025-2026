@@ -9,7 +9,7 @@ lang: ru-RU
 toc-title: "Содержание"
 
 ## Bibliography
-bibliography: bib/references.bib
+bibliography: bib/cite.bib
 csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 
 ## Pdf output format
@@ -37,7 +37,7 @@ mainfont: IBM Plex Serif
 romanfont: IBM Plex Serif
 sansfont: IBM Plex Sans
 monofont: IBM Plex Mono
-mathfont: STIX Two Math
+mathfont: Latin Modern Math
 mainfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
 romanfontoptions: Ligatures=Common,Ligatures=TeX,Scale=0.94
 sansfontoptions: Ligatures=Common,Ligatures=TeX,Scale=MatchLowercase,Scale=0.94
@@ -75,7 +75,7 @@ header-includes:
 
 ### Актуальность темы:
 
-В этом исследовании рассматривается создание диаграмм и графиков с помощью TikZ в LaTeX. Мы используем TikZ для рисования фракталов и математических графиков, таких как Sierpiński carpet. Этот инструмент используется для создания научных и математических визуализаций с высокой точностью и гибкостью.
+В этом исследовании рассматривается создание диаграмм и графиков с помощью TikZ в LaTeX. Мы используем TikZ для рисования фракталов и математических графиков, таких как Sierpiński carpet. Этот инструмент используется для создания научных и математических визуализаций с высокой точностью и гибкостью[@lab-task; @tikz-examples; @overleaf-tikz].
 
 ### Объект и предмет исследования:
 
@@ -176,3 +176,6 @@ header-includes:
 # Выводы по проделанной работе
 
 Использование TikZ в LaTeX для создания фракталов и математических графиков доказало свою эффективность и точность. Это решение представляет собой перспективный инструмент для подготовки научных материалов, и его использование продолжает расти среди исследователей и студентов.
+
+
+# Список литературы{.unnumbered}
