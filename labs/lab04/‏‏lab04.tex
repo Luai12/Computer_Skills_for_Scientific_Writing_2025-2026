@@ -1,0 +1,155 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{hyperref}
+
+\begin{document}
+
+
+\section*{Упражнение 1: Включение изображений}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.3\textwidth]{image.jpg}
+\caption{Мое изображение}
+\label{fig:myimage}
+\end{figure}
+
+
+
+\section*{Упражнение 2: Параметры изображений}
+
+\begin{center}
+\includegraphics[height=2cm]{image.jpg}
+\includegraphics[width=0.2\textwidth]{image.jpg}
+\includegraphics[scale=0.6]{image.jpg}
+\includegraphics[angle=45, width=0.15\textwidth]{image.jpg}
+\end{center}
+
+
+\clearpage
+\twocolumn
+
+\section*{Упражнение 3: Сравнение \textbackslash textwidth и \textbackslash linewidth}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{image.jpg}
+\includegraphics[width=0.8\linewidth]{image.jpg}
+\caption{Сравнение textwidth и linewidth в режиме двух колонок}
+\end{figure}
+
+\onecolumn
+\clearpage
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{image.jpg}
+\includegraphics[width=0.8\linewidth]{image.jpg}
+\caption{В одноколоночном режиме}
+\end{figure}
+
+
+
+
+
+
+\newpage
+
+
+\section*{Упражнение 4: Работа с плавающими объектами}
+
+\lipsum[1-2]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.3\textwidth]{image.jpg}
+\caption{Рисунок с [H] - точно здесь}
+\label{fig:here}
+\end{figure}
+
+\lipsum[3]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.3\textwidth]{image.jpg}
+\caption{Рисунок в текущем месте}
+\label{fig:current}
+\end{figure}
+
+\lipsum[4]
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.4\textwidth]{image.jpg}
+\caption{Рисунок с [t] - верх страницы}
+\label{fig:top}
+\end{figure}
+
+\begin{figure}[b]
+\centering
+\includegraphics[width=0.4\textwidth]{image.jpg}
+\caption{Рисунок с [b] - низ страницы}
+\label{fig:bottom}
+\end{figure}
+
+\clearpage
+
+\section*{Упражнение 5: Перекрестные ссылки}
+
+\section{Введение}
+\label{sec:intro}
+
+Это раздел введения. Мы будем ссылаться на него позже.
+
+\subsection{Теоретическая основа}
+\label{subsec:background}
+
+Этот подраздел обсуждает теоретическую основу.
+
+\begin{enumerate}
+    \item \label{item:first} Первый важный пункт
+    \item \label{item:second} Второй важный пункт
+    \item \label{item:third} Третий важный пункт
+\end{enumerate}
+
+\begin{equation}
+\label{eq:simple}
+E = mc^2
+\end{equation}
+
+Теперь мы можем ссылаться на различные элементы:
+
+\begin{itemize}
+    \item Раздел: \ref{sec:intro}
+    \item Подраздел: \ref{subsec:background}
+    \item Первый пункт: \ref{item:first}
+    \item Уравнение: \ref{eq:simple}
+    \item Рисунок 1: \ref{fig:myimage}
+    \item Рисунок 3: \ref{fig:linewidth}
+\end{itemize}
+
+Как обсуждалось в разделе~\ref{sec:intro}, особенно в пункте~\ref{item:first}, мы видим из уравнения~\ref{eq:simple} что...
+
+
+\section*{Упражнение 6: Метки уравнений}
+
+\begin{equation}
+E = mc^2
+\label{eq:energy}
+\end{equation}
+
+\begin{equation}
+E = mc^2
+\end{equation}
+\label{eq:energy}
+
+
+
+\end{document}

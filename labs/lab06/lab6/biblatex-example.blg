@@ -1,0 +1,17 @@
+[1] Config.pm:328> INFO - This is Biber 2.21
+[2] Config.pm:331> INFO - Logfile is 'biblatex-example.blg'
+[330] biber:342> INFO - === Sat Nov 22, 2025, 11:16:43
+[373] Biber.pm:421> INFO - Reading 'biblatex-example.bcf'
+[646] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
+[694] Biber.pm:4487> INFO - Processing section 0
+[738] Biber.pm:4678> INFO - Looking for bibtex file 'myrefs.bib' for section 0
+[741] bibtex.pm:1713> INFO - LaTeX decoding ...
+[760] bibtex.pm:1519> INFO - Found BibTeX data source 'myrefs.bib'
+[991] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[992] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[992] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[993] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1006] bbl.pm:676> INFO - Writing 'biblatex-example.bbl' with encoding 'UTF-8'
+[1013] bbl.pm:779> INFO - Output to biblatex-example.bbl
+[1015] Biber.pm:132> WARN - I didn't find a database entry for 'NotReal2024' (section 0)
+[1016] Biber.pm:134> INFO - WARNINGS: 1
