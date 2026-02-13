@@ -12,7 +12,7 @@ Rutube
 
 VKvideo
 -[Выполнение лабораторной работы](https://vkvideo.ru/video-235810809_456239042?list=ln-8LMdBWsIwlOF3bO5uI)
--[защиты презентации лабораторной работы](https://vkvideo.ru/video-235810809_456239045?list=ln-xoWT85zCk73WZefVb4)
+-[защиты презентации лабораторной работы](https://vkvideo.ru/video-235810809_456239052?list=ln-4TK5JlOPur0jD6SqoY)
 -[скринкаст процесса подготовки отчёта](https://vkvideo.ru/video-235810809_456239043?list=ln-ERyiU9MzJnVd8zkx8I)
 -[скринкаст процесса подготовки презентации](https://vkvideo.ru/video-235810809_456239044?list=ln-yKznUNquBEHIPTKRx4)
 
