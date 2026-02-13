@@ -1,14 +1,16 @@
 Rutube
 
--[Выполнение лабораторной работы
-](https://rutube.ru/video/private/2a4094abcf9f997068382e513aa75ba5/?p=C8lLS8Q1b6o-FHxbomwVmA)
--[Защита лабораторной работы](https://rutube.ru/video/private/94a2b23e45c9fbaae5d7e080930e4775/?p=6rAh4E-7LkSuY4H2lhECpA)
--[скринкаст процесса подготовки отчёта](https://rutube.ru/video/private/1f9f54901be61e3574469cc86ec59334/?p=re4H0EYqziOAVKIqPtb2gA)
--[скринкаст процесса подготовки презентации](https://rutube.ru/video/private/12fd2fefce775a8081e9cffd0eb30f90/?p=AWRtZCyHugH0qaR8miUOlg)
+-[Выполнение лабораторной работы](https://rutube.ru/video/private/6ac4d02495bacb09b74a61abdde1bb07/?p=KjtmdWFB15oaAcZyEJi6QQ)
+-[ защиты презентации лабораторной работы](https://rutube.ru/video/private/62b11635500df8fe5ced657012d1358f/?p=EgdkY5vDon3G89slDFjSRQ)
+-[скринкаст процесса подготовки отчёта](https://rutube.ru/video/private/b94d594a4fcdce33ce57b3e8148b81ac/?p=5iOhzoy76IokZ-qR-smEsQ)
+-[скринкаст процесса подготовки презентации](https://rutube.ru/video/private/5404d185a61687a037841672bc504d6e/?p=sL8NusCW5w0vAgafltCvKw)
 
 
 VKvideo
--[Выполнение лабораторной работы](https://vkvideo.ru/video-235810809_456239026?list=ln-LPdyqThp9ZUceVf0Lq)
--[защиты презентации лабораторной работы](https://vkvideo.ru/video-235810809_456239029?list=ln-mXHkucZmgnQDUXtvFn)
--[скринкаст процесса подготовки отчёта](https://vkvideo.ru/video-235810809_456239027?list=ln-7fZRBQDKO4NbbY5O1e)
--[скринкаст процесса подготовки презентации](https://vkvideo.ru/video-235810809_456239028?list=ln-ge5q4uXlZ9S6GiPZht)
+-[Выполнение лабораторной работы](https://vkvideo.ru/video-235810809_456239046?list=ln-a5qZEGg4wJDEgI1f9V)
+-[защиты презентации лабораторной работы](https://vkvideo.ru/video-235810809_456239051?list=ln-ZlF6k3Tk8xukf3kTMv)
+-[скринкаст процесса подготовки отчёта](https://vkvideo.ru/video-235810809_456239047?list=ln-dxDmrfFbgIEc9jlRrz)
+-[скринкаст процесса подготовки презентации](https://vkvideo.ru/video-235810809_456239048?list=ln-OGzy1XI0mf18G6REa8)
+
+
+
