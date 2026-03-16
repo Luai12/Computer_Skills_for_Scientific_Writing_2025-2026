@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}   
+\usepackage[T2A]{fontenc}      
+\usepackage[russian]{babel}   
+
+
+\usepackage[numbers]{natbib}
+
+\begin{document}
+
+Текст с текстовой ссылкой: \citet{Graham1995} показывает пример по математике.
+
+Скобочная ссылка: см. \citep{Thomas2008} для примера по химии.
+
+Ещё одна комбинированная ссылка: \citep[см.][стр.~45--48]{Graham1995}.
+
+ Новый источник показывает результаты по ИИ: см. \citep{Smith2020}.
+ 
+
+Ссылка на несуществующий источник: \citep{NotReal2024}.
+
+
+
+\bibliographystyle{plainnat}
+\bibliography{myrefs}
+
+\end{document}
+

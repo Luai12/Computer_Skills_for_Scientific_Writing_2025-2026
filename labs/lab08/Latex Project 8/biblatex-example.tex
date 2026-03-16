@@ -1,0 +1,41 @@
+\documentclass[border=1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{math}
+
+
+\newcommand{\CarpetSquare}[2]{
+    \fill[black] #1 rectangle ++(#2,#2);
+}
+
+\begin{document}
+\begin{tikzpicture}
+\tikzmath{
+    function sierpinski_carpet(\x, \y, \s, \d) {
+        if (\d == 0) then {
+         
+            { \CarpetSquare{(\x,\y)}{\s}; };
+        } else {
+            
+            \sub = \s / 3;
+           ）
+            for \i in {0,1,2} {
+                for \j in {0,1,2} {
+                    if (!(\i == 1 && \j == 1)) then {
+                        sierpinski_carpet(\x + \i*\sub, \y + \j*\sub, \sub, \d-1);
+                    };
+                };
+            };
+        };
+    };
+    
+    \S = 3;
+  
+    for \d in {0,...,3} {
+       
+        \x = (\S + 0.5) * mod(\d, 2);
+        \y = - int(\d / 2) * (\S + 0.5);
+        sierpinski_carpet(\x, \y, \S, \d);
+    };
+}
+\end{tikzpicture}
+\end{document}

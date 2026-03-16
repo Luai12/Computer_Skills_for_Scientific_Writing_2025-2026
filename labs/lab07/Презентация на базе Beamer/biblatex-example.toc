@@ -1,0 +1,8 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {1}{Введение}{3}{0}{1}
+\beamer@sectionintoc {2}{Основная структура}{4}{0}{2}
+\beamer@sectionintoc {3}{Элементы управления}{5}{0}{3}
+\beamer@sectionintoc {4}{Математика}{9}{0}{4}
+\beamer@sectionintoc {5}{Изображения и таблицы}{11}{0}{5}
+\beamer@sectionintoc {6}{Советы}{13}{0}{6}
+\beamer@sectionintoc {7}{Заключение}{14}{0}{7}

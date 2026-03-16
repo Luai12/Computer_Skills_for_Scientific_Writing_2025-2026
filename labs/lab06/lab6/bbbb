@@ -1,0 +1,11 @@
+pdflatex natbib-example.tex
+bibtex natbib-example
+pdflatex natbib-example.tex
+pdflatex natbib-example.tex
+
+
+pdflatex biblatex-example.tex
+biber    biblatex-example
+pdflatex biblatex-example.tex
+pdflatex biblatex-example.tex
+

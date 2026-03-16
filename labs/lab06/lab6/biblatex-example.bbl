@@ -1,0 +1,122 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Graham1995}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=65e6323adac2eec778c3822c50f54174}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Ronald\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b5085a32ea3005cb2c63376fae9f0646}{%
+           family={Patashnik},
+           familyi={P\bibinitperiod},
+           given={Oren},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{fullhash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{fullhashraw}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{bibnamehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authorbibnamehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authornamehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authorfullhash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authorfullhashraw}{75cc54ed2f979f868345a841e7a30c01}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Concrete Mathematics}
+      \field{year}{1995}
+    \endentry
+    \entry{Smith2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of AI Research}
+      \field{number}{3}
+      \field{title}{An Interesting Paper About AI}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{200\bibrangedash 215}
+      \range{pages}{16}
+    \endentry
+    \entry{Thomas2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ad3a32c2e2b36fcb1e276891cd1bc867}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Christine\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23c8d41a30aebd227e7315e843b6f2ff}{%
+           family={Darensbourg},
+           familyi={D\bibinitperiod},
+           given={Marcetta\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{88884ef5f9e833742d8f77304eec0ab6}
+      \strng{fullhash}{88884ef5f9e833742d8f77304eec0ab6}
+      \strng{fullhashraw}{88884ef5f9e833742d8f77304eec0ab6}
+      \strng{bibnamehash}{88884ef5f9e833742d8f77304eec0ab6}
+      \strng{authorbibnamehash}{88884ef5f9e833742d8f77304eec0ab6}
+      \strng{authornamehash}{88884ef5f9e833742d8f77304eec0ab6}
+      \strng{authorfullhash}{88884ef5f9e833742d8f77304eec0ab6}
+      \strng{authorfullhashraw}{88884ef5f9e833742d8f77304eec0ab6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inorganic Chemistry}
+      \field{title}{Some Article About Chemistry}
+      \field{volume}{47}
+      \field{year}{2008}
+      \field{pages}{7009\bibrangedash 7024}
+      \range{pages}{16}
+    \endentry
+  \enddatalist
+  \missing{NotReal2024}
+\endrefsection
+\endinput
+
